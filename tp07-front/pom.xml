@@ -3,13 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>hei</groupId>
-		<artifactId>tp07-awt</artifactId>
+		<artifactId>tp07-npk</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>tp07-front</artifactId>
+	<artifactId>tp07-npk-front</artifactId>
 	<packaging>war</packaging>
 
-
-	
-
+	<dependencies>
+		<dependency>
+			<groupId>hei</groupId>
+			<artifactId>tp07-npk-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
